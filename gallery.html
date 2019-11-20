@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="gallery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Gallery</title>
+    <link rel="icon" type="image/ico" href="logoBisMitSmall.png"/>
+  </head>
+  <body>
+    <!--navbar-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <a class="navbar-brand" href="#"><img src="logo_bismit.png" alt="logo" height="60px"></a>
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BEM</a>
+          </li>
+          <li class="nav-item contact">
+            <a class="nav-link" href="#">Hire Us!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+  <!--gallery header-->
+    <div class="header1 h-100">
+      <div class="header1_text">
+        <p id="header1_heading">GALLERY</p>
+        <hr class="hr1 mt-2" width="400px" >
+      </div>
+    </div>
+  <div class="empty">
+  </div>
+
+<!--gallery-->
+<div class="container container_main">
+  <div class="row">
+    <!--expanded image and description -->
+  <div class="col col-lg-8">
+    <div class="row">
+      <img id="expandedImg" style="width: 80%;" src="img_nature.jpg">
+    </div>
+    <div class="row empty3">
+    </div>
+    <div class="row">
+      <div class="imgtext">
+        <h2 id="imgtext">Nature</h2>
+        <p id="tulisan" >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam 1</p>
+      </div>
+    </div>
+  </div>
+  <!--slider-->
+  <div class="container1 col col-lg-4">
+    <div class="row justify-content-md-center">
+      <img href="#" class="gambar float-center" src="img_nature.jpg" title="Nature"
+      alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam"
+        onclick="myFunction(this);">
+    </div>
+    <div class="row justify-content-md-center">
+      <img href="#" class="gambar float-right" src="img_snow.jpg" title="Snow"
+      alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam 1"
+        onclick="myFunction(this);">
+  </div>
+  <div class="row justify-content-md-center">
+      <img href="#" class="gambar float-right" src="img_mountains.jpg" title="Mountains"
+      alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam 2"
+        onclick="myFunction(this);">
+  </div>
+  <div class="row justify-content-md-center">
+      <img href="#" class="gambar float-center" src="img_lights.jpg" title="Lights"
+      alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam 3"
+        onclick="myFunction(this);">
+  </div>
+  <div class="row justify-content-md-center">
+    <img href="#" class="gambar float-center" src="img_snow.jpg" title="Snow"
+    alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam 4"
+      onclick="myFunction(this);">
+</div>
+<div class="row justify-content-md-center">
+  <img href="#" class="gambar float-center" src="img_nature.jpg" title="Nature"
+  alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam 5"
+    onclick="myFunction(this);">
+</div>
+</div>
+</div>
+</div>
+<div class="empty2">
+</div>
+
+<!--google maps-->
+<div class="container-fluid container_map">
+<div class="row">
+  <div class="col col-md-6 gmaps_div">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.22750904618!2d106.82649991413908!3d-6.364595564031364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec1ad14fb6cf%3A0xc94e4d829420fa15!2sFaculty%20of%20Computer%20Science%2C%20University%20of%20Indonesia!5e0!3m2!1sen!2sid!4v1572840712779!5m2!1sen!2sid" height="500px" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+  <div class="col col-md-6 justify-content-end location">
+    <h3 class="location_title">LOCATION</h3>
+    <hr class="hr3 mt-3" width="200px"><br>
+    <img src="pin.png" class="pin"><br>
+    <h5 class="fasilkom">Faculty of Computer Science<br>
+      Universitas Indonesia</h5>
+  </div>
+</div>
+</div>
+
+<!--form (missing)-->
+
+
+
+<!--footer-->
+<div class="footer-copyright text-center py-3">© Copyright 2019, All Rights Reserved. <> with ❤️ by Bismit</div>
+
+    <script src="gallery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+.navbar {
+  padding-top: 0px;
+}
+
+.bg-custom{
+  background-color: #2A2436;
+}
+
+.nav-item:hover{
+  background-color: #FFB736 !important;
+  transition: .5s;
+}
+
+ul.navbar-nav a:hover{
+  color: #292533 !important;
+  transition: .5s;
+}
+
+.nav-link {
+  width: 100px;
+  text-align: center;
+}
+
+.active a{
+  color: #FFB736 !important;
+}
+
+.contact{
+  background-color: #FFB736 !important;
+}
+
+.contact a{
+  color: white !important;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar{
+  margin:0 !important;
+  padding: 0 !important;
+}
+
+.navbar-brand{
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-nav li{
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+body{
+  background-color: #F5E3E3 !important;
+  overflow-x: hidden;
+}
+
+.hr1{
+  margin-top: 0;
+  margin-bottom: 0%;
+  border: 3px solid #2A2436;
+}
+
+#header1_heading {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 0%;
+    color: #2A2436;
+}
+
+.header1_text{
+  text-align: center;
+  padding-top: 3%;
+}
+
+.empty{
+  height: 50px;
+}
+
+.container1{
+  height: 500px;
+  width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.gambar{
+  height: 120px;
+  padding: 5px;
+  padding-right: 0;
+}
+
+.imgtext{
+  background-color: #2A2436;
+  color: white;
+  height: auto;
+  width: 80%;
+}
+
+#imgtext{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.empty3{
+  height: 25px;
+}
+
+.empty2{
+  height: 50px;
+}
+
+#tulisan{
+  text-align: center;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.location{
+  background-color: #FFB736;
+  height: 300px;
+}
+
+.location_title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder !important;
+  padding-top: 50px;
+}
+
+.pin{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  display: block;
+}
+
+.fasilkom{
+  text-align: center !important;
+  font-weight: 500 !important;
+}
+
+.hr3{
+  margin-top: 0;
+  margin-bottom: 0%;
+  border: 3px solid #2A2436;
+}
+
+.gmaps_div {
+  position:relative;
+}
+
+.gmaps_div iframe{
+  border: 0;
+  left: 0;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+}
+
+.footer-copyright{
+  background-color: black;
+  color: white;
+  padding-top: 0;
+  height: 50px !important;
+}
